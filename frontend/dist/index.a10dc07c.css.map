@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["src/static/common.css"],"sourcesContent":["* {\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    margin: 0px;\r\n}"],"names":[],"version":3,"file":"index.a10dc07c.css.map","sourceRoot":"/__parcel_source_root/"}

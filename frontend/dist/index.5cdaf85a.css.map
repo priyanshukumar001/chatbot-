@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/static/nav.css"],"sourcesContent":[".nav {\r\n    width: 100vw;\r\n    height: auto;\r\n    padding: 1em;\r\n    background-color: #007BFF;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    margin: 0;\r\n}"],"names":[],"version":3,"file":"index.5cdaf85a.css.map","sourceRoot":"/__parcel_source_root/"}

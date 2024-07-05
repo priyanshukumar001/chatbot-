@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box">
+            <p class="bot-message">Hello! How can I assist you today?</p>
+        </div>
+        <div class="input-container">
+            <form method="post">
+                {% csrf_token %}
+                <input name="input_name" type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="input-container">
+            {% if form_data %}
+            <p>{{ form_data }}</p>
+            {% endif %}
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+.nav {
+  background-color: #007bff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+}
+/*# sourceMappingURL=index.5cdaf85a.css.map */
